@@ -1,0 +1,531 @@
+
+{% extends "layout.html" %}
+n #carousel-section -->
+{% block body %}
+<!-- Begin #carousel-section -->
+<section id="carousel-section" class="section-global-wrapper">
+
+    <div class="container-fluid-kamn">
+        <div class="row">
+
+            <div id="carousel-1" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators visible-lg">
+                    <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-1" data-slide-to="1"></li>
+                    <li data-target="#carousel-1" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <!-- Begin Slide 1 -->
+                    <div class="item active">
+                        <img src="{{url_for('static',filename='images/family.jpeg')}}" alt="">
+                        <div class="carousel-caption">
+                            <h3 class="carousel-title hidden-xs">ONLINE WILLS</h3>
+                            <p class="carousel-body">LEGAL - FREE - SIMPLE</p>
+                        </div>
+                    </div>
+                    <!-- End Slide 1 -->
+                    <!-- Begin Slide 2 -->
+                    <div class="item">
+                        <img src="{{url_for('static',filename='images/legal.jpeg')}}" alt="">
+                        <div class="carousel-caption">
+                            <h3 class="carousel-title hidden-xs">LEGAL IN ALL 50 STATES</h3>
+                            <p class="carousel-body">3 step process</p>
+                        </div>
+                    </div>
+                    <!-- End Slide 2 -->
+                    <!-- Begin Slide 3 -->
+                    <div class="item">
+                        <img src="{{url_for('static',filename='images/simple.jpeg')}}" alt="">
+                        <div class="carousel-caption">
+                            <h3 class="carousel-title hidden-xs">SIMPLE PROCESS</h3>
+                            <p class="carousel-body">Easy to setup, change, share</p>
+                        </div>
+                    </div>
+                    <!-- End Slide 3 -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- End #carousel-section -->
+
+<!-- Begin #services-section -->
+<section id="services" class="services-section section-global-wrapper">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="services-header">
+                <h3 class="services-header-title">SERVICES</h3>
+                <p class="services-header-body">Nulla euismod magna ut leo blandit, a fermentum metus malesuada.</p>
+            </div>
+        </div>
+
+        <!-- Begin Services Row 1 -->
+        <div class="row services-row services-row-head services-row-1">
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="services-group">
+                    <p class="services-icon"><span class="fa fa-flask fa-5x"></span></p>
+                    <h4 class="services-title">CLEAN DESIGN</h4>
+                    <p class="services-body">Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.</p>
+                    <p class="services-more"><a href="#">Find Out More</a></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="services-group">
+                    <p class="services-icon"><i class="fa fa-desktop fa-5x"></i></p>
+                    <h4 class="services-title">FULLY RESPONSIVE</h4>
+                    <p class="services-body">Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.</p>
+                    <p class="services-more"><a href="#">Find Out More</a></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="services-group">
+                    <p class="services-icon"><i class="fa fa-thumbs-o-up fa-5x"></i></p>
+                    <h4 class="services-title">EASY TO USE</h4>
+                    <p class="services-body">Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.</p>
+                    <p class="services-more"><a href="#">Find Out More</a></p>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Serivces Row 1 -->
+
+        <!-- Begin Services Row 2 -->
+        <div class="row services-row services-row-tail services-row-2">
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="services-group">
+                    <p class="services-icon"><span class="fa fa-shield fa-5x"></span></p>
+                    <h4 class="services-title">AWESOME SUPPORT</h4>
+                    <p class="services-body">Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.</p>
+                    <p class="services-more"><a href="#">Find Out More</a></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="services-group">
+                    <p class="services-icon"><i class="fa fa-eye fa-5x"></i></p>
+                    <h4 class="services-title">RETINA READY</h4>
+                    <p class="services-body">Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.</p>
+                    <p class="services-more"><a href="#">Find Out More</a></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="services-group">
+                    <p class="services-icon"><i class="fa fa-html5 fa-5x"></i></p>
+                    <h4 class="services-title">HTML5</h4>
+                    <p class="services-body">Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.</p>
+                    <p class="services-more"><a href="#">Find Out More</a></p>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Serivces Row 2 -->
+
+    </div>
+
+</section>
+<!-- End #services-section -->
+
+<!-- Begin .parallax-section-1 -->
+<section class="parallax-section parallax-section-1 section-global-wrapper" data-stellar-vertical-offset="-300" data-stellar-background-ratio="0.5">
+    <h2 class="parallax-title">BALEEN PARALLAX TEMPLATE</h2>
+    <p class="parallax-body">BUILD ON BOOTSRAP 3.0</p>
+</section>
+<!-- End .parallax-section-1 -->
+
+<!-- Begin .portfolio-section -->
+<section id="work" class="portfolio-section section-global-wrapper">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="portfolio-header">
+                <h3 class="portfolio-header-title">WORK</h3>
+                <p class="portfolio-header-body">Fusce molestie quam sed neque pellentesque, sed molestie risus sollicitudin.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="nav-pills-centered portfoio-filters">
+                <ul id="filters" class="nav nav-pills">
+                    <li><a href="javascript:;" data-option-value="*" class="active">ALL</a></li>
+                    <li><a href="javascript:;" data-option-value=".design">DESIGN</a></li>
+                    <li><a href="javascript:;" data-option-value=".print">PRINT</a></li>
+                    <li><a href="javascript:;" data-option-value=".digital">DIGITAL</a></li>
+                    <li><a href="javascript:;" data-option-value=".video">VIDEO</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div id="projects" class="project-caption">
+
+                <div class="element print digital">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/flash.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">FLASH</h3>
+                        <div>
+                            <a href="images/flash.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="http://designorbital.com/contango-pro/" target="_blank" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element print digital">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/elegant.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">ELEGANT</h3>
+                        <div>
+                            <a href="images/elegant.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="http://designorbital.com/future-pro/" target="_blank" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element design">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/innocent.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">INNOCENT</h3>
+                        <div>
+                            <a href="images/innocent.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="http://designorbital.com/prana-pro/" target="_blank" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element print">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/optimistic.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">OPTIMISTIC</h3>
+                        <div>
+                            <a href="images/optimistic.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="http://designorbital.com/alula/" target="_blank" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element design">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/baleen.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">BALEEN</h3>
+                        <div>
+                            <a href="images/baleen.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element digital print">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/heart.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">HEART</h3>
+                        <div>
+                            <a href="images/heart.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element video">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/bunny.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">BUNNY</h3>
+                        <div>
+                            <a href="http://vimeo.com/69228454" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element print design">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/skeleton.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">SKELETON</h3>
+                        <div>
+                            <a href="images/skeleton.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element video">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/journey.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">JOURNEY</h3>
+                        <div>
+                            <a href="http://www.youtube.com/watch?v=HbRL1fEVvQca" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element print digital">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/memories.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">MEMORIES</h3>
+                        <div>
+                            <a href="images/memories.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element design">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/typography.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">TYPOGRAPHY</h3>
+                        <div>
+                            <a href="images/typography.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="element digital">
+                    <figure>
+                        <img src="{{url_for('static',filename='images/delicious.jpg')}}" alt="" class="img-responsive" />
+                        <figcaption>
+                        <h3 class="project-caption-title">DELICIOUS</h3>
+                        <div>
+                            <a href="images/delicious.jpg" class="project-caption-icon project-caption-view" data-rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <a href="javascript:;" class="project-caption-icon project-caption-link"><i class="fa fa-link"></i></a>
+                        </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- End .portfolio-section -->
+
+<!-- Begin .parallax-section-2 -->
+<section class="parallax-section parallax-section-2 section-global-wrapper" data-stellar-vertical-offset="-150" data-stellar-background-ratio="0.5">
+    <h2 class="parallax-title">CLEAN &amp; RESPONSIVE DESIGN</h2>
+    <p class="parallax-body"><a href="#" class="btn btn-primary btn-lg">BUY NOW</a></p>
+</section>
+<!-- End .parallax-section-2 -->
+
+<!-- Begin .about-section -->
+<section id="about" class="about-section section-global-wrapper">
+
+    <div class="container">
+        <div class="row">
+            <div class="about-header">
+                <h3 class="about-header-title">ABOUT US</h3>
+                <p class="about-header-body">Proin pretium tristique tincidunt. Nunc viverra sapien metus, non sagittis odio commodo sit amet. Phasellus non velit pellentesque, ullamcorper lacus vitae, eleifend augue. Etiam at luctus urna. Ut eget mollis arcu. Sed id placerat augue, non sollicitudin est. Aenean congue ligula turpis, eu imperdiet dui luctus a. Nam fringilla nunc quis iaculis condimentum. Nulla eu magna sollicitudin, blandit arcu mollis, commodo orci.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- End .about-section -->
+
+<!-- Begin .staff-section -->
+<section id="team" class="staff-section section-global-wrapper">
+
+    <div class="container">
+        <div class="row">
+            <div class="staff-header">
+                <h3 class="staff-header-title">OUR TEAM</h3>
+                <p class="staff-header-body">Let meet our talented human resource.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="staff-group">
+                    <div class="staff-image"><img src="{{url_for('static',filename='images/staff-team-lead_steve.png')}}" alt="" class="img-responsive img-circle" /></div>
+                    <h4 class="staff-title">STEVE</h4>
+                    <h6 class="staff-designation">TEAM LEAD</h6>
+                    <p class="staff-body">Pellentesque felis leo, mollis vel tortor a, ultricies elementum velit.</p>
+                    <ul class="widget_social-list-wrapper widget_social-one list-inline clearfix">
+                        <li class="facebook"><a href="javascript:;" target="_blank" title="Facebook" data-toggle="tooltip">Facebook</a></li>
+                        <li class="twitter"><a href="javascript:;" target="_blank" title="Twitter" data-toggle="tooltip">Twitter</a></li>
+                        <li class="gplus"><a href="javascript:;" target="_blank" title="Google Plus" data-toggle="tooltip">Google Plus</a></li>
+                        <li class="linkedin"><a href="javascript:;" target="_blank" title="LinkedIn" data-toggle="tooltip">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="staff-group">
+                    <div class="staff-image"><img src="{{url_for('static',filename='images/staff-hr_anne.png')}}" alt="" class="img-responsive img-circle" /></div>
+                    <h4 class="staff-title">ANNE</h4>
+                    <h6 class="staff-designation">HR</h6>
+                    <p class="staff-body">Pellentesque felis leo, mollis vel tortor a, ultricies elementum velit.</p>
+                    <ul class="widget_social-list-wrapper widget_social-one list-inline clearfix">
+                        <li class="facebook"><a href="javascript:;" target="_blank" title="Facebook" data-toggle="tooltip">Facebook</a></li>
+                        <li class="pinterest"><a href="javascript:;" target="_blank" title="Pinterest" data-toggle="tooltip">Pinterest</a></li>
+                        <li class="flickr"><a href="javascript:;" target="_blank" title="Flickr" data-toggle="tooltip">Flickr</a></li>
+                        <li class="skype"><a href="javascript:;" target="_blank" title="Skype" data-toggle="tooltip">Skype</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="staff-group">
+                    <div class="staff-image"><img src="{{url_for('static',filename='images/staff-web-developer_susan.png')}}" alt="" class="img-responsive img-circle" /></div>
+                    <h4 class="staff-title">SUSAN</h4>
+                    <h6 class="staff-designation">DEVELOPER</h6>
+                    <p class="staff-body">Pellentesque felis leo, mollis vel tortor a, ultricies elementum velit.</p>
+                    <ul class="widget_social-list-wrapper widget_social-one list-inline clearfix">
+                        <li class="rss"><a href="javascript:;" target="_blank" title="RSS" data-toggle="tooltip">RSS</a></li>
+                        <li class="wordpress"><a href="javascript:;" target="_blank" title="WordPress" data-toggle="tooltip">WordPress</a></li>
+                        <li class="youtube"><a href="javascript:;" target="_blank" title="TouTube" data-toggle="tooltip">TouTube</a></li>
+                        <li class="vimeo"><a href="javascript:;" target="_blank" title="Vimeo" data-toggle="tooltip">Vimeo</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="staff-group">
+                    <div class="staff-image"><img src="{{url_for('static',filename='images/staff-blogger_ida.png')}}" alt="" class="img-responsive img-circle" /></div>
+                    <h4 class="staff-title">IDA</h4>
+                    <h6 class="staff-designation">BLOGGER</h6>
+                    <p class="staff-body">Pellentesque felis leo, mollis vel tortor a, ultricies elementum velit.</p>
+                    <ul class="widget_social-list-wrapper widget_social-one list-inline clearfix">
+                        <li class="facebook"><a href="javascript:;" target="_blank" title="Facebook" data-toggle="tooltip">Facebook</a></li>
+                        <li class="flickr"><a href="javascript:;" target="_blank" title="Flickr" data-toggle="tooltip">Flickr</a></li>
+                        <li class="wordpress"><a href="javascript:;" target="_blank" title="WordPress" data-toggle="tooltip">WordPress</a></li>
+                        <li class="youtube"><a href="javascript:;" target="_blank" title="TouTube" data-toggle="tooltip">TouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- End .staff-section -->
+
+<!-- Begin .contact-section -->
+<section id="contact" class="contact-section section-global-wrapper">
+
+    <div class="container">
+        <div class="row">
+            <div class="contact-header">
+                <h3 class="contact-header-title">CONTACT US</h3>
+                <p class="contact-header-body">Please reach out to us with any comments or questions.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- End .contact-section -->
+
+<!-- Begin .feedback-section -->
+<section id="feedback" class="feedback-section section-global-wrapper">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div class="feedback-form">
+
+                    <div id="contact-response"></div>
+
+                    <form action="contact.php" method="post" id="contact-form">
+                        <fieldset>
+                            <div class="form-group form-group-fullname">
+                                <label class="control-label" for="fullname">NAME *</label>
+                                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group form-group-email">
+                                <label class="control-label" for="email">E-MAIL *</label>
+                                <input type="text" class="form-control" name="email" id="email" placeholder="Enter Your E-Mail">
+                            </div>
+                            <div class="form-group form-group-message">
+                                <label class="control-label" for="message">MESSAGE *</label>
+                                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                            </div>
+                            <div class="form-group form-group-captcha-image">
+                                <img id="captcha-image" class="captcha-image" src="lib/securimage/securimage_show.php" alt="CAPTCHA Image" />
+                                <a href="#" class="btn btn-primary btn-captcha-refresh" onclick="document.getElementById( 'captcha-image' ).src = 'lib/securimage/securimage_show.php?' + Math.random(); return false"><i class="fa fa-refresh"></i></a>
+                            </div>
+                            <div class="form-group form-group-captcha">
+                                <label class="control-label" for="captcha">CAPTCHA *</label>
+                                <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Enter Captcha Code">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+
+                <div class="address-section">
+                    <div class="address-icon"><i class="fa fa-map-marker"></i></div>
+                    <h4 class="address-title">LOCATE US</h4>
+                    <address>
+                        801 Key Highway Unit P70<br>
+                        Baltimore, MD 21230<br>
+                        <abbr title="Phone">P:</abbr> (513) 520-8771
+                    </address>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- End .feedback-section -->
+
+<!-- Begin .location-section -->
+<div id="location-gmap" class="location-section"></div>
+<!-- End .contact-section -->
+{% endblock %}

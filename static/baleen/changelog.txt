@@ -1,0 +1,18 @@
+== 1.2 [2014.04.25] ==
+
+* CAPTCHA support added to contact form
+* Contact form client and server side validation improved
+* Bootstrap upgraded to v3.1.1
+* jQuery upgraded to v2.1.0
+* jQuery Form Plugin upgraded to v20140218
+
+== 1.1 [2014.01.15] ==
+
+* New code written to support Bootstrap 3.0.3
+* Font Awesome upgraded to 4.0.3
+* HTML5 markup added
+* New logic written to support user friendly color skins
+
+== 1.0 [2013.08.10] ==
+
+* Initial release

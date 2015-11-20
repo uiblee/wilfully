@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Baleen - One Page Responsive Bootstrap Template</title>
+        <meta name="description" content="Baleen is a bootstrap template designed in a clean and minimalistic style enhanced with parallax scrolling effect.">
+        <meta name="keywords" content="bootstrap, google map, portfolio, responsive, single page, parallax, one page, responsive, scroll, modern">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" id="bs-css" href="{{url_for('static',filename='lib/css/bootstrap.css')}}">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="{{url_for('static',filename='lib/css/font-awesome.css')}}">
+
+        <!-- Google Web Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700">
+
+        <!-- prettyPhoto -->
+        <link rel="stylesheet" href="{{url_for('static',filename='lib/js/prettyphoto/css/prettyPhoto.css')}}">
+
+        <!-- Custom Stylesheets -->
+        <link rel="stylesheet" href="{{url_for('static',filename='lib/css/animate.css')}}" />
+
+        <!-- Template Stylesheet -->
+        <link rel="stylesheet" id="template-css" href="{{url_for('static',filename='style.css')}}">
+
+        <link rel="stylesheet" id="skin-css" href="{{url_for('static',filename='lib/css/skin-default.css')}}">
+    </head>
+    <body data-spy="scroll" data-target="#navbar-spy" data-offset="160">
+        <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="site-wrapper">
+
+            <!-- Begin #header-section -->
+            <header id="home" class="site-header">
+
+            <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://templates.designorbital.com/baleen/">Wilfully</a>
+                </div>
+
+                <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="#home">HOME</a></li>
+                        <li><a href="#About">ABOUT</a></li>
+                        <li><a href="#Sign-up">SIGNUP</a></li>
+                        <li><a href="#Login">LOGIN</a></li>
+                        <li><a href="#Contact">CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            </nav>
+
+            </header>
+            <!-- End #header-section -->
+            {% block body %}
+            {% endblock %}
+            <!-- Begin .site-footer -->
+            <footer id="footer" class="site-footer">
+
+            <div class="footer-copyright">&copy; COPYRIGHT 2015 - Wilfully <a href="http://designorbital.com/baleen-bootstrap-template/" target="_blank"></a></div>
+            <ul class="widget_social-list-wrapper widget_social-two list-inline clearfix">
+                <li class="facebook"><a href="javascript:;" target="_blank" title="Facebook" data-toggle="tooltip">Facebook</a></li>
+                <li class="twitter"><a href="javascript:;" target="_blank" title="Twitter" data-toggle="tooltip">Twitter</a></li>
+                <li class="gplus"><a href="javascript:;" target="_blank" title="Google Plus" data-toggle="tooltip">Google Plus</a></li>
+            </ul>
+
+            </footer>
+            <!-- End .site-footer -->
+
+        </div>
+        <script src="{{url_for('static',filename='lib/js/jquery.min.js')}}"></script>
+        <script src="{{url_for('static',filename='lib/js/bootstrap.js')}}"></script>
+        <script src="{{url_for('static',filename='lib/js/prettyphoto/js/jquery.prettyPhoto.js')}}"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+        <script src="{{url_for('static',filename='lib/js/plugins.js')}}"></script>
+        <script src="{{url_for('static',filename='lib/js/custom.js')}}"></script>
+    </body>
+</html>
